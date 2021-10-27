@@ -2,9 +2,7 @@
 * {
     font-family:'Museo Sans Cyrl',sans-serif;
 }
-html {
-    font-size: 10px;
-}
+
 .container {
     max-width: 940px;
     margin: 0 auto;
@@ -13,3 +11,4 @@ html {
 @import 'blocks/header';
 @import 'blocks/buttons';
 @import 'blocks/advantages';
+@import 'blocks/titles';
