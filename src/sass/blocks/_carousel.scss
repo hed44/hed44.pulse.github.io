@@ -1,9 +1,9 @@
 .carousel {
     padding: 81px 0 82px 0;
-    height: 740px;
+    max-height: 740px;
     &__inner {
         position: relative;
-        width: 750px;
+        max-width: 750px;
         height: 580px;
         margin: 0 auto;
     }

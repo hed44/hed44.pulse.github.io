@@ -1,0 +1,144 @@
+@media ( max-width: 1200px ) {
+    .container {
+        max-width: 800px;
+    }
+    .catalog {
+        margin-top: 40px;
+        &__content {
+            justify-content: center;
+        }
+        &-item {
+            margin: 20px;
+        }
+    }
+}
+
+
+@media ( max-width: 991px ) {
+    .container {
+        max-width: 700px;
+    }
+    .promo {
+        &__header {
+            font-size: 38px;
+        }
+        &__subheader {
+            font-size: 21px;
+        }
+    }
+    .advantages {
+        br {
+            display: none;
+        }
+        &__block {
+            margin: 26px 10px 0 10px;
+        }
+    }
+    .consultation {
+        .title_left {
+            font-size: 28px;
+            line-height: 1.7;
+        }
+    }
+    .carousel {
+        margin-right: 0;
+        padding-bottom: 0px;
+         &__inner {
+             img {
+                 display: block;
+                 margin: 0 auto;
+                 width: 80%;
+             }
+         }
+     }
+    .slick-dots {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        list-style: none; 
+        padding-left: 0;
+        margin-top: 20px;
+        li[class="slick-active"] 
+        button {
+            background: $main-color;
+        } 
+        button {
+            font-size: 0;               
+            background: #eac8be;
+            border: none;
+            border-radius: 50%;
+            height: 35px; 
+            width: 35px; 
+            margin: 5px; 
+            outline: none; 
+        }
+   
+    }
+    .catalog {
+        margin-top: 40px;
+        &__content {
+            justify-content: center;
+        }
+        &-item {
+            margin: 20px;
+        }
+        
+    }
+    .footer {
+        height: 530px;
+
+        &__info {
+        width: 410px;
+        height: 241px;
+        padding: 45px 0 60px 0;
+        }
+    }
+   
+}
+
+
+
+
+@media ( max-width: 767px ) {
+    .header {
+        padding: 0 16px;
+    }
+
+   .advantages {
+       min-height: 400px;
+       padding: 60px 0;
+       &__descr {
+           font-size: 13px;
+       }
+      
+   }
+  
+    .footer {
+        height: 430px;
+        &__addr {
+            font-size: 18px;
+
+        }
+        &__phone {
+            font-size: 18px;
+            text-align: center;
+        }
+        &__social-item {
+            width: 40px;
+            height: 40px;
+            img {
+                height: 20px;
+            }
+        }
+    }
+   
+
+}
+
+
+// @media ( max-width: 575px )	{
+    
+// }
+    
+
+
