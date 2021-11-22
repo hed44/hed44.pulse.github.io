@@ -9,10 +9,14 @@
         font-weight: 500;
         color: #ffffff; 
     }
-    .raz { 
-        -moz-appearance: textfield;
-      }
-      .raz::-webkit-inner-spin-button { 
-        display: none;
-      } 
+    .error {
+        border: 1px solid red;
+        }
+    label.error {
+        border: none;
+        text-align: center;
+        margin-bottom: 15px;
+        font-size: 14px;
+        color: #fff;
+    }  
 }
